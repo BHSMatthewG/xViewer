@@ -1,0 +1,10 @@
+C:\Users\morph\source\repos\xViewer\xViewer\bin\Debug\xViewer.exe.config
+C:\Users\morph\source\repos\xViewer\xViewer\bin\Debug\xViewer.exe
+C:\Users\morph\source\repos\xViewer\xViewer\bin\Debug\xViewer.pdb
+C:\Users\morph\source\repos\xViewer\xViewer\obj\Debug\xViewer.csprojAssemblyReference.cache
+C:\Users\morph\source\repos\xViewer\xViewer\obj\Debug\xViewer.MainForm.resources
+C:\Users\morph\source\repos\xViewer\xViewer\obj\Debug\xViewer.Properties.Resources.resources
+C:\Users\morph\source\repos\xViewer\xViewer\obj\Debug\xViewer.csproj.GenerateResource.cache
+C:\Users\morph\source\repos\xViewer\xViewer\obj\Debug\xViewer.csproj.CoreCompileInputs.cache
+C:\Users\morph\source\repos\xViewer\xViewer\obj\Debug\xViewer.exe
+C:\Users\morph\source\repos\xViewer\xViewer\obj\Debug\xViewer.pdb
