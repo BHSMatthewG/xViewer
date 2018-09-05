@@ -109,12 +109,12 @@ namespace xViewer.Handlers.Decompiler.Methods
             TypeInfo tInfo = pInfo.ParameterType.GetTypeInfo();
 
             string ret = "";
-            // Regular Signatures
+            
             ret = ret + "// Decompiled by xDec - Custom IL/CIL Decompiler\n";
             ret = ret + "// MN: " + info.Name + " | PM: " + info.IsPrivate + " | MDT: " + info.MetadataToken.ToString() + "\n";
 
             ret = ret + "\n";
-            // time for huge chain of if statements
+            
             if (info.IsPublic)
             {
                 ret = ret + "public ";
@@ -126,15 +126,12 @@ namespace xViewer.Handlers.Decompiler.Methods
                 ret = ret + "virtual ";
             }
 
-            // get return type
             ret = ret + ParseType(info.ReturnType) + " ";
-
-            // put together name and args
+            
             ret = ret + info.Name + "(" + GetArgs(info) + ")\n";
             ret = ret + "{\n";
             ret = ret + DecompileBody(body) + "\n";
             ret = ret + "}";
-            //ret = ret + pInfo.
 
             return ret;
         }
