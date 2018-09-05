@@ -118,17 +118,11 @@ namespace xViewer.Handlers.Decompiler.Methods
             if (info.IsPublic)
             {
                 ret = ret + "public ";
-            }
-            if (info.IsPrivate)
-            {
+            } else if (info.IsPrivate) {
                 ret = ret + "private ";
-            }
-            if (info.IsStatic)
-            {
+            } else if (info.IsStatic) {
                 ret = ret + "static ";
-            }
-            if (info.IsVirtual)
-            {
+            } else if (info.IsVirtual) {
                 ret = ret + "virtual ";
             }
 
